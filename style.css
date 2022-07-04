@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arapey', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.top-part {
+    display: flex;
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+.second-part {
+    display: flex;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 8%;
+    color: #575757;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.person-image {
+    width: 50%;
+    padding-left: 15%;
+}
+
+.person-image img {
+    width: 40%;
+}
+
+.half-width p {
+    font-size: 15px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to left, tomato, orange);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.third-part {
+    text-align: center;
+    color: #575757;
+    padding-top: 40px;
+
+}
+
+.fourth-part {
+    display: flex;
+
+}
+
+.recipe-title {
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3%;
+    align-content: center;
+    padding: 5%;
+    border-radius: 30px;
+}
+
+.recipe-title img{
+    width: 100%;
+    height: 20%;
+}
+
+.fifth-part{
+    display: flex;
+    text-align: center;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3%;
+}
+
+.likes{
+    padding: 2% 10%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
